@@ -1,5 +1,5 @@
 # FOOD-IMAGE-RECOGNITION-CLASSIFICATION-SYSTEM
-(EPT4046 - PROJECT)-A project to create a model that classifies food images. Transfer Learning is used to create the model.
+(EPT4046 - PROJECT)-A project to create a simple model that classifies food images. Transfer Learning is used to create the model.
 
 
 **Objective:**
@@ -15,7 +15,21 @@ The Dataset "Food-11 image dataset" is obtained from Kaggle (click [here)](https
 
 **Architecture Used:**
 
-The following Neural Network Architechture are used to build models using Transfer Learning in Python:
+The following Neural Network Architechtures are used to build models via the technique of Transfer Learning in Python on Google Colab with the usage of Tensorflow libraries:
 - Inception V3
 - VGG-16
 - DenseNet-121
+- ResNet-50
+
+**Evaluation:**
+
+The Metric used for evaluation of the neural network architectures is using percentage of accuracy with respect to the predicted and actual classes of food.
+
+**Result:""
+
+| Model  | Accuracy |
+| ------------- | ------------- |
+| Inception V3  | 91.93%  |
+| VGG-16  | 87.00%  |
+| DenseNet-121  | 90.80%  |
+| ResNet-50  | 90.98%   |
