@@ -25,7 +25,7 @@ The following Neural Network Architechtures are used to build models via the tec
 
 The Metric used for evaluation of the neural network architectures is using percentage of accuracy with respect to the predicted and actual classes of food.
 
-**Result:""
+**Result:**
 
 | Model  | Accuracy |
 | ------------- | ------------- |
